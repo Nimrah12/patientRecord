@@ -1,0 +1,44 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+
+# john_task:  
+#   firstname: John
+#   lastname: Doe
+#   dateofbirth: 1990-01-01
+#   phonenumber: 1234567890
+#   email: john.doe@example.com
+#   medicalcondition: Some condition
+#   allergies: false
+#   payment: 50.0
+
+# jane_task:
+#   firstname: Jane
+#   lastname: Smith
+#   dateofbirth: 1985-05-05
+#   phonenumber: 9876543210
+#   email: jane.smith@example.com
+#   medicalcondition: Another condition
+#   allergies: true
+#   payment: 75.0
+
+one:
+  firstname: MyString
+  lastname: MyString
+  dateofbirth: MyString
+  phonenumber: MyString
+  email: MyString
+  medicalcondition: MyString
+  firstname: MyString
+  payment: MyString
+
+two:
+  firstname: MyString
+  lastname: MyString
+  dateofbirth: MyString
+  phonenumber: MyString
+  email: MyString
+  medicalcondition: MyString
+  allergies: MyString
+  payment: MyString
+
+
