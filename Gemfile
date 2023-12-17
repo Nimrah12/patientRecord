@@ -43,5 +43,13 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'brakeman'
+  gem 'bundler-audit'
+  gem 'ruby_audit'
+  gem 'pg'
+  gem 'rubocop-rails'
+  gem 'rubocop'
+
 end
 
