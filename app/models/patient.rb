@@ -1,7 +1,7 @@
 # frozen_string_literal: true
-
+# this is the patient coment
 class Patient < ApplicationRecord
-  # This is the top level patient controller coment
+  
 
   validates :firstname, presence: true
   validates :lastname, presence: true

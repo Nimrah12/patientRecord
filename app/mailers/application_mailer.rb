@@ -1,7 +1,7 @@
 # frozen_string_literal: true
-
+# Action mailer  coment
 class ApplicationMailer < ActionMailer::Base
-  # This is the top level patient controller coment
+  
 
   default from: 'from@example.com'
   layout 'mailer'

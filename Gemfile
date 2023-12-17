@@ -47,7 +47,6 @@ group :development do
   # gem "spring"
   gem 'brakeman'
   gem 'bundler-audit'
-  gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'pg'
   gem 'rubocop'
   gem 'rubocop-rails'
