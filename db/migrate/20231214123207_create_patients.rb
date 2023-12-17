@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # Migration to create the patients table.
 
 class CreatePatients < ActiveRecord::Migration[7.1]
