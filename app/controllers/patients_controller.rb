@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class PatientsController < ApplicationController
-  before_action :set_patient, only: %i[show edit update destroy]
+  before_action :set_patient, only: %i[show update destroy]
 
   # GET /patients
   def index
