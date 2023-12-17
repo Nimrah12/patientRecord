@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class PatientsController < ApplicationController
   # This is the top level patient controller coment
   before_action :set_patient, only: %i[show update destroy]

@@ -4,6 +4,7 @@
 require 'test_helper'
 
 class PatientTest < ActiveSupport::TestCase
+
   test 'should be valid with valid attributes' do
     patient = Patient.new(
       firstname: 'John',
