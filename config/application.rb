@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+# Application class for the PatientRecord application.
 require_relative 'boot'
 
 require 'rails/all'

@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # PatientsController handles the logic for managing patients in the system.
 class PatientsController < ApplicationController
   before_action :set_patient, only: %i[show update destroy]

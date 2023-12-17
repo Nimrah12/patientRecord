@@ -21,7 +21,19 @@ class PatientsControllerTest < ActionDispatch::IntegrationTest
   test 'should create patient' do
     assert_difference('Patient.count') do
       post patients_url,
-           params: { patient: { allergies: @patient.allergies, dateofbirth: @patient.dateofbirth, email: 'new_patient@example.com', firstname: 'New', lastname: 'Patient', medicalcondition: @patient.medicalcondition, payment: @patient.payment, phonenumber: @patient.phonenumber } }, as: :json
+      params: {
+        patient: {
+          allergies: @patient.allergies,
+          dateofbirth: @patient.dateofbirth,
+          email: 'new_patient@example.com',
+          firstname: 'New',
+          lastname: 'Patient',
+          medicalcondition: @patient.medicalcondition,
+          payment: @patient.payment,
+          phonenumber: @patient.phonenumber
+        }
+      }, as: :json
+      
     end
 
     assert_response :created
